@@ -33,3 +33,30 @@ p {
 .bold {
     font-weight: 800;
 }
+
+.large {
+    height: 10px;
+}
+
+.medium {
+    height: 5px;
+}
+
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+
+.small-text {
+    font-size: 0.85rem;
+}
+
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* textos alinhados na mesma linha*/
+}
+
+.calories-info h2 {
+    margin: 0;
+}
